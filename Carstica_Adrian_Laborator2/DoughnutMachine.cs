@@ -13,6 +13,10 @@ namespace Carstica_Adrian_Laborator2
         public delegate void DoughnutCompleteDelegate();
         public event DoughnutCompleteDelegate DoughnutComplete;
         DispatcherTimer doughnutTimer;
+        public DoughnutMachine()
+        {
+            InitializeComponent();
+        }
         
 
 
